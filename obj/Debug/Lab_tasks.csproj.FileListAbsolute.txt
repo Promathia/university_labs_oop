@@ -1,0 +1,7 @@
+D:\dev\university_2019\2_semester_2020\OOP\impl\Tasks\Lab_tasks\Lab_tasks\bin\Debug\Lab_tasks.exe.config
+D:\dev\university_2019\2_semester_2020\OOP\impl\Tasks\Lab_tasks\Lab_tasks\bin\Debug\Lab_tasks.exe
+D:\dev\university_2019\2_semester_2020\OOP\impl\Tasks\Lab_tasks\Lab_tasks\bin\Debug\Lab_tasks.pdb
+D:\dev\university_2019\2_semester_2020\OOP\impl\Tasks\Lab_tasks\Lab_tasks\obj\Debug\Lab_tasks.csprojAssemblyReference.cache
+D:\dev\university_2019\2_semester_2020\OOP\impl\Tasks\Lab_tasks\Lab_tasks\obj\Debug\Lab_tasks.csproj.CoreCompileInputs.cache
+D:\dev\university_2019\2_semester_2020\OOP\impl\Tasks\Lab_tasks\Lab_tasks\obj\Debug\Lab_tasks.exe
+D:\dev\university_2019\2_semester_2020\OOP\impl\Tasks\Lab_tasks\Lab_tasks\obj\Debug\Lab_tasks.pdb
