@@ -76,7 +76,7 @@ namespace Lab_tasks.Task_5
             Array.Sort(trainees);
             foreach (Human human in trainees)
             {
-                PrintingUtils.PrintCalculationResults(false, dynamicTable.TableLine(new String[] { human.Surname, human.Status.ToString(), human.YearOfBirth, human.Svedenija() }));
+                PrintingUtils.PrintCalculationResults(false, dynamicTable.TableLine(new String[] { human.Surname, human.Status.ToString() }));
             }
             PrintingUtils.PrintCalculationResults(false, dynamicTable.TableDown());
         }
@@ -94,14 +94,15 @@ namespace Lab_tasks.Task_5
             DateTime today = DateTime.Today;
             foreach (Human human in people)
             {
+                Human casted = (Human)human;
                 int year = Convert.ToInt32(human.YearOfBirth);
                 if (human.Status == Status.PUPIL && (today.Year - year) > 12)
                 {
-                    PrintingUtils.PrintWithColor(false, ConsoleColor.Yellow, dynamicTable.TableLine(new String[] { human.Surname, human.Status.ToString(), human.YearOfBirth, human.Svedenija() }));
+                    PrintingUtils.PrintWithColor(false, ConsoleColor.Yellow, dynamicTable.TableLine(casted.ToString().Split(';')));
                 }
                 else
                 {
-                    PrintingUtils.PrintCalculationResults(false, dynamicTable.TableLine(new String[] { human.Surname, human.Status.ToString(), human.YearOfBirth, human.Svedenija() }));
+                    PrintingUtils.PrintCalculationResults(false, dynamicTable.TableLine(casted.ToString().Split(';')));
                 }
             }
             PrintingUtils.PrintCalculationResults(false, dynamicTable.TableDown());
