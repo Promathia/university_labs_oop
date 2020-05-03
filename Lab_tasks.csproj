@@ -57,11 +57,23 @@
     <Compile Include="Tasks\Task_3\Entity\CompetitionResult.cs" />
     <Compile Include="Tasks\Task_3\Entity\Sportsman.cs" />
     <Compile Include="Tasks\Task_3\Task_3_1.cs" />
+    <Compile Include="Tasks\Task_5\Entity\Human.cs" />
+    <Compile Include="Tasks\Task_5\Entity\Pupil.cs" />
+    <Compile Include="Tasks\Task_5\Entity\Status.cs" />
+    <Compile Include="Tasks\Task_5\Entity\Student.cs" />
+    <Compile Include="Tasks\Task_5\Entity\Trainee.cs" />
+    <Compile Include="Tasks\Task_5\Entity\Worker.cs" />
+    <Compile Include="Tasks\Task_5\Service\IHumanCreator.cs" />
+    <Compile Include="Tasks\Task_5\Service\impl\HumanCreatorImpl.cs" />
+    <Compile Include="Tasks\Task_5\Task_5_1.cs" />
     <Compile Include="Tasks\Utils\DynamicTable.cs" />
     <Compile Include="Tasks\Utils\PrintingUtils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="Tasks\Task_5\Resources\input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

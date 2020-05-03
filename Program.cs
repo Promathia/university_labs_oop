@@ -1,5 +1,6 @@
 ﻿using Lab_tasks.Task_1;
 using Lab_tasks.Task_2;
+using Lab_tasks.Task_5;
 using Lab_tasks.Tasks;
 using Lab_tasks.Tasks.Task_2;
 using Lab_tasks.Tasks.Utils;
@@ -88,6 +89,7 @@ namespace Lab_tasks
             tasks.Add("2_1", new Task_2_1());
             tasks.Add("2_2", new Task_2_2());
             tasks.Add("3_1", new Task_3_1());
+            tasks.Add("5_1", new Task_5_1());
             return tasks;
         }
     }
